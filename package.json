@@ -1,0 +1,9 @@
+{
+  "name": "esblain-fff-proxy",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "axios": "^1.7.4",
+    "cheerio": "^1.0.0"
+  }
+}
