@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "api/fff.js", "use": "@vercel/node" }
+  ],
+  "routes": [
+    { "src": "/api/fff/(.*)", "dest": "/api/fff.js" }
+  ]
+}
